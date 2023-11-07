@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  hsl(30, 38%, 92%);
+}
+
+p{
+    color: hsl(228, 12%, 48%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    margin-top: 155px;
+}
+
+.container .text-container{
+    background-color: hsl(0, 0%, 100%);
+    padding: 90px;
+    width: 600px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.text-container .head{
+    padding-top: 30px;
+}
+
+.text-container .paraph{
+    padding-top: 60px;
+}
+
+.text-container .price{
+    padding-top: 60px;
+}
+
+.button{
+    padding-top: 52px;
+}
+
+.text-container button{
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    height: 80px;
+    width: 400px;
+    color: hsl(0, 0%, 100%);
+    padding-top: 30px;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.button button p{
+    color:  hsl(0, 0%, 100%);
+}
+
+h1 span{
+    color: hsl(158, 36%, 37%);
+    
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+}
+
+.price .price2{
+    text-decoration: line-through;
+    padding-left: 50px;
+    padding-top: 20px;
+    
+}
+
+.container .image-container img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
